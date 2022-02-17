@@ -14,7 +14,7 @@ html body {
   border-radius: 15px;
 }
 .container-el {
-  margin: 118px 52px 46px 52px;
+  margin: 50px 40px 46px 52px;
 }
 
 .gen {
@@ -41,7 +41,7 @@ html body {
   justify-content: center;
   align-items: center;
   padding: 9px 17px 9px 15px;
-  background: #10b981;
+  background: #8B5CF6;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
   border: none;
@@ -61,37 +61,62 @@ html body {
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
-.upper-sec {
+.checkboxs {
+  color: #10b981;
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: -0.025em;
+  display: flex;
+  justify-content: space-between;
+}
+.checkbox {
+  height: 20px;
+  width: 20px;
+}
+.vl {
+  border-left: 2.5px solid #2f3e53;
+  height: 35px;
+  margin: 0px 10px 0px 10px;
+}
+.box{
   display: flex;
 }
-.lower-sec {
-  display: flex;
-}
-
-.box {
-  background: #273549;
+.password-box {
+  background-color: #273549;
+  border: 1px solid #10b981 ;
   border-radius: 6px;
   padding: 10px 15px;
-  width: 50%;
-  margin: 0px 24px 27px 0px;
-  min-height: 100%;
-}
-
-.btn-img {
-  display: block;
-  margin: auto;
-  width: 20px;
-  height: 5px;
-  display: none;
-}
-.box-text {
-  font-weight: 550;
-  font-size: 17px;
-  line-height: 32px;
+  width: 90%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
   text-align: center;
   color: #55f991;
+  margin-right: 20px;
+}
+
+.copy-btn{
+  padding: 9px 25px 9px 25px;
+  background: #8B5CF6;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.number-box{
+  background-color: #273549;
+  border: 0.2px solid #10b981 ;
+  border-radius: 6px;
+  padding: 2px 2px;
+  width: 60px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #55f991;
+  margin-left: 2px;
 }

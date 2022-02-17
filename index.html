@@ -18,34 +18,38 @@
             <div class="upper-el">
                 <h1 class="gen">Generate a <br><span class="ran"> random password </span></h1>
                 <p class="upper-para">Never use an insecure password again.</p>
-                <button class="upper-btn"><img src="./Images/thunder.png" alt="Thunder sign" class="thunder-icon">
+                <button id="generate-btn" class="upper-btn"><img src="./Images/thunder.png" alt="Thunder sign"
+                        class="thunder-icon">
                     <spam class="btn-text">Generate passwords</spam>
                 </button>
             </div>
-            <hr style="border: 1px solid #2F3E53; margin: 35px 0px;">
+            <hr style="border: 1px solid #2F3E53; margin: 35px 0px 15px 0px;">
             <div class="lower-el">
+                <div class="checkboxs">
+                    <label for="numbers">Numbers</label>
+                    <input type="checkbox" class="checkbox" id="numbers" checked />
+                    <div class="vl"></div>
+                    <label for="symbols">Symbols</label>
+                    <input id="symbols" id="symbol" class="checkbox" type="checkbox" checked />
+                    <div class="vl"></div>
+                    <label for="value">Value</label>
+                    <input type="number" id="length" class="number-box" min="1" value="16" max="99">
+                </div>
+
+                <hr style="border: 1px solid #2F3E53; margin: 15px 0px 15px 0px;">
+
                 <div class="upper-sec">
                     <div class="box">
-                        <img src="./Images/dots.svg" alt="Three Dots" class="btn-img">
-                        <p class="box-text"></p>
+                        <input type="text" id="password-txt-one" class="password-box"
+                            placeholder="Press the generate button to generate password!!!">
+                        <button id= "copyOne" class="copy-btn">Copy</button>
                     </div>
-                    <div class="box" style="margin-right: 0px;">
-                        <img src="./Images/dots.svg" alt="Three Dots" class="btn-img">
-                        <p class="box-text"></p>
+                    <div class="box" style="margin-top: 13px;">
+                        <input type="text" id="password-txt-two" class="password-box" placeholder="Set the required password length in the value box">
+                        <button id= "copyTwo" class="copy-btn">Copy</button>
                     </div>
+                    <p class="upper-para" id="copied-txt">Hope you are having a great day.❤️</p>
                 </div>
-                <div class="lower-sec">
-                    <div class="box" >
-                        <img src="./Images/dots.svg" alt="Three Dots" class="btn-img">
-                        <p class="box-text"></p>
-                    </div>
-                    <div class="box" style="margin-right: 0px;">
-                        <img src="./Images/dots.svg" alt="Three Dots" class="btn-img">
-                        <p class="box-text">Hello world!</p>
-                    </div>
-                </div>
-                
-                
             </div>
         </div>
     </div>
