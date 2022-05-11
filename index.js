@@ -17,7 +17,7 @@ function getUpper() {
 function getNumber() {
   let number = "";
   for (i = 0; i < 10; i++) {
-    number += +String.fromCharCode(i + 48);
+    number += Number(String.fromCharCode(i + 48));
   }
   return number;
 }
